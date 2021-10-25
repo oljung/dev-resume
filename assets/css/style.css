@@ -4,6 +4,12 @@ body {
     background-color: beige;
 }
 
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    padding: 0;
+}
+
+/* ----------------------Header styling----------------------------- */
+
 .bg-color-name-title {
     background-color: #676767;
 }
@@ -40,4 +46,33 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-resume {
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-contact {
+    background-color: #3498db;
+}
+
+.ui-menu-color-download {
+    background-color: #525252;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+.menucontainer li {
+    font-size: 14px;
+    padding: 0;
 }
