@@ -31,11 +31,50 @@ h4 {
     display: inline-block;
 }
 
-/* ----------------------Header styling----------------------------- */
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/* ----------------------Colours----------------------------- */
 
 .bg-color-name-title {
     background-color: #676767;
 }
+
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-resume {
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-contact {
+    background-color: #3498db;
+}
+
+.ui-menu-color-download {
+    background-color: #525252;
+}
+
+/* ----------------------Header styling----------------------------- */
 
 header {
     margin: 0;
@@ -69,22 +108,6 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
-}
-
-.ui-menu-color-home {
-    background-color: #e67e22;
-}
-
-.ui-menu-color-resume {
-    background-color: #9b59b6;
-}
-
-.ui-menu-color-contact {
-    background-color: #3498db;
-}
-
-.ui-menu-color-download {
-    background-color: #525252;
 }
 
 .list-inline-item:not(:last-child) {
