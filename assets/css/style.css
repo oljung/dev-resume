@@ -6,6 +6,7 @@ body {
 
 .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     padding: 0;
+    overflow: hidden;
 }
 
 /* ----------------------Special padding/margins/text----------------------------- */
@@ -47,6 +48,7 @@ h4 {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+    margin-left: 10px;
 }
 
 /* ----------------------Colours----------------------------- */
@@ -93,7 +95,7 @@ header {
 }
 
 .heading {
-    margin-left: 50px;
+    margin-left: 35px;
 }
 
 .logo {
